@@ -20,7 +20,14 @@ A Python tool that checks for the existence of a username across 20+ social medi
 - `requests`
 - `rich` (optional, for better terminal output)
 
+or 
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Installation
+### From source
 
 ```bash
 # Clone the repository
@@ -29,6 +36,12 @@ cd Navarro
 
 # Install dependencies
 pip install requests rich
+```
+
+### Docker
+```bash
+docker build -t navarro .
+docker run -it navarro <command>
 ```
 
 ## Usage
